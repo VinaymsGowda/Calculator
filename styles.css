@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  background-color: aqua;
+}
+
+.calculator {
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.inputfield {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+button {
+  background-color: gold;
+  cursor: pointer;
+  width: 44px;
+  height: 34px;
+}
+
+.number {
+  font-weight: bold;
+  color: black;
+  padding: 5%;
+}
+
+.number:hover {
+  box-shadow: 1px 2px 3px whitesmoke;
+}
